@@ -5,57 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="699c8375-21a8-402f-b7a8-2fb819e34359" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/java/org/sid/configservice/ConfigServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/test/java/org/sid/configservice/ConfigServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/config/GlobalConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/web/ConfigTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing-service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-git-repo/product-service-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-git-repo/product-service-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-git-repo/product-service.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-git-repo/vente-service.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/CustomerServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/org/sid/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/org/sid/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/org/sid/inventoryservice/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/org/sid/productservice/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/org/sid/inventoryservice/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/org/sid/productservice/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/org/sid/inventoryservice/InventoryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/org/sid/inventoryservice/ProductServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/BillingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/VenteServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/entities/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/entities/Vente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/entities/ProductItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/entities/ProductItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/repositories/BillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/repositories/VenteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/repositories/ProductItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/repositories/ProductItemsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/service/CustomerRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/service/CustomerRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/service/ProductRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/service/ProductRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/web/BillRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/web/VenteRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/test/java/org/sid/billingservice/BillingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/test/java/org/sid/billingservice/VenteServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +24,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/product-service" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-git-repo" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -154,7 +113,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
+    <configuration name="rest-api_2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.configservice.ConfigServiceApplication" />
@@ -220,6 +182,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.rest-api_2 | #1" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
       <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
       <item itemvalue="Spring Boot.GatewayServiceApplication" />
@@ -229,9 +192,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.rest-api_2 | #1" />
+        <item itemvalue="Spring Boot.VenteServiceApplication" />
         <item itemvalue="Spring Boot.ProductServiceApplication" />
         <item itemvalue="Spring Boot.CustomerServiceApplication" />
-        <item itemvalue="Spring Boot.VenteServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +210,7 @@
       <workItem from="1702414267012" duration="8979000" />
       <workItem from="1702476360963" duration="30044000" />
       <workItem from="1702664054721" duration="2992000" />
-      <workItem from="1702674369379" duration="2842000" />
+      <workItem from="1702674369379" duration="5347000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -256,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702486513872</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1702677454863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702677454864</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

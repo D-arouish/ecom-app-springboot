@@ -4,75 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="699c8375-21a8-402f-b7a8-2fb819e34359" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/BillingServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/entities/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/entities/ProductItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/repositories/BillRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/repositories/ProductItemsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/service/CustomerRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/service/ProductRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/org/sid/billingservice/web/BillRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/billing-service/src/test/java/org/sid/billingservice/BillingServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/CustomerServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/entities/CustomerProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/test/java/org/sid/customerservice/CustomerServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/org/sid/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/test/java/org/sid/discoveryservice/DiscoveryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecom-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/org/sid/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/test/java/org/sid/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/sid/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/sid/inventoryservice/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/org/sid/inventoryservice/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/org/sid/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="699c8375-21a8-402f-b7a8-2fb819e34359" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/java/org/sid/configservice/ConfigServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/test/java/org/sid/configservice/ConfigServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/config/GlobalConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/web/ConfigTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/billing-service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-git-repo/product-service-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-git-repo/product-service-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-git-repo/product-service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-git-repo/vente-service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/org/sid/customerservice/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/org/sid/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/org/sid/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/org/sid/inventoryservice/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/org/sid/productservice/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/org/sid/inventoryservice/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/org/sid/productservice/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/org/sid/inventoryservice/InventoryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/org/sid/inventoryservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/BillingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/VenteServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/entities/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/entities/Vente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/entities/ProductItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/entities/ProductItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/repositories/BillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/repositories/VenteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/repositories/ProductItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/repositories/ProductItemsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/service/CustomerRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/service/CustomerRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/service/ProductRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/service/ProductRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/billingservice/web/BillRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/java/org/sid/venteservice/web/VenteRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/test/java/org/sid/billingservice/BillingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/test/java/org/sid/billingservice/VenteServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +71,22 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/billing-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/product-service" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1d9b89cc-2867-4319-a916-5195a4b9b89f" />
+        <option name="url" value="https://github.com/D-arouish/ecom-app.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -115,15 +113,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/Zakar/IdeaProjects/ecom-app/product-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reactor",
+    "settings.editor.selected.configurable": "spring",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -134,6 +134,13 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.sid.billingservice.model" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\product-service\src\main\resources" />
+      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\config-git-repo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -141,12 +148,16 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BillingServiceApplication">
-    <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="billing-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.billingservice.BillingServiceApplication" />
+  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.configservice.ConfigServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,17 +190,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="inventory-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.inventoryservice.InventoryServiceApplication" />
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.productservice.ProductServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sid.productservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VenteServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="--server.port=8084" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="vente-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sid.venteservice.VenteServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sid.venteservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.ProductServiceApplication" />
+      <item itemvalue="Spring Boot.VenteServiceApplication" />
+      <item itemvalue="Spring Boot.CustomerServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ProductServiceApplication" />
         <item itemvalue="Spring Boot.CustomerServiceApplication" />
+        <item itemvalue="Spring Boot.VenteServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -202,15 +244,39 @@
       <option name="presentableId" value="Default" />
       <updated>1702414266028</updated>
       <workItem from="1702414267012" duration="8979000" />
-      <workItem from="1702476360963" duration="6196000" />
+      <workItem from="1702476360963" duration="30044000" />
+      <workItem from="1702664054721" duration="2992000" />
+      <workItem from="1702674369379" duration="2842000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1702486513872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702486513872</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

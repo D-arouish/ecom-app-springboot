@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="699c8375-21a8-402f-b7a8-2fb819e34359" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/config-service" beforeDir="false" afterPath="$PROJECT_DIR$/config-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service" beforeDir="false" afterPath="$PROJECT_DIR$/product-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vente-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +208,7 @@
       <workItem from="1702476360963" duration="30044000" />
       <workItem from="1702664054721" duration="2992000" />
       <workItem from="1702674369379" duration="6728000" />
-      <workItem from="1702753696581" duration="1494000" />
+      <workItem from="1702753696581" duration="3344000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -241,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702680182220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1702755875637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702755875637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

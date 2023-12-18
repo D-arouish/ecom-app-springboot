@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="699c8375-21a8-402f-b7a8-2fb819e34359" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/config-service/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vente-service/dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-git-repo" beforeDir="false" afterPath="$PROJECT_DIR$/config-git-repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service" beforeDir="false" afterPath="$PROJECT_DIR$/config-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/java/org/sid/configservice/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/java/org/sid/configservice/ConfigServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ecom-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service" beforeDir="false" afterPath="$PROJECT_DIR$/product-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vente-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vente-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +41,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -27,7 +52,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gateway-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vente-service" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -70,7 +95,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zakar/IdeaProjects/ecom-app/product-service/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zakar/IdeaProjects/ecom-app/vente-service&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,8 +116,11 @@
       <recent name="org.sid.billingservice.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\product-service\src\main\resources" />
-      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\config-git-repo" />
+      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\vente-service" />
+      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\product-service" />
+      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\gateway-service" />
+      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\customer-service" />
+      <recent name="C:\Users\Zakar\IdeaProjects\ecom-app\config-service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zakar\IdeaProjects\ecom-app" />
@@ -110,8 +138,11 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (angular-front-end)">
     <configuration name="rest-api_2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (angular-front-end)" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
     </configuration>
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -178,8 +209,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Angular CLI Server (angular-front-end)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/angular-front-end/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="HTTP Request.rest-api_2 | #1" />
+      <item itemvalue="JavaScript Debug.Angular Application (angular-front-end)" />
+      <item itemvalue="npm.Angular CLI Server (angular-front-end)" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
       <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
       <item itemvalue="Spring Boot.GatewayServiceApplication" />
@@ -189,10 +232,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.rest-api_2 | #1" />
         <item itemvalue="Spring Boot.VenteServiceApplication" />
         <item itemvalue="Spring Boot.ProductServiceApplication" />
         <item itemvalue="Spring Boot.CustomerServiceApplication" />
+        <item itemvalue="HTTP Request.rest-api_2 | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +252,10 @@
       <workItem from="1702664054721" duration="2992000" />
       <workItem from="1702674369379" duration="6728000" />
       <workItem from="1702753696581" duration="3344000" />
+      <workItem from="1702760554290" duration="5325000" />
+      <workItem from="1702810532238" duration="16909000" />
+      <workItem from="1702850619440" duration="2211000" />
+      <workItem from="1702892733641" duration="5792000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -242,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702755875637</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1702760780724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702760780724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
